@@ -1,0 +1,66 @@
+
+
+
+html{
+    font-size: 82.5%;
+}
+.main-div{
+    
+    background-color:rgb(183, 236, 231);
+    width: 100vw;
+    min-height: 100vh;
+    display:grid;
+    place-items: center;
+}
+.inner-div{
+    width: 50vw;
+    background-color: #fff;
+     padding: 30px 80px ;
+     border-radius: 2px;
+     box-shadow: 10px 10px 10px  grey;
+     font-family:Verdana, Geneva, Tahoma, sans-serif
+     
+}
+.inner-div h3{
+         margin: 20px 20px 40px 60px;
+         font-size: 3.5rem;
+         font-weight: bold;
+}
+.inner-div li{
+    font-size: 3rem;
+   margin: 15px 0px 10px 0px;
+    list-style: none;
+    
+}
+input{
+    width: 5%;
+    height: 2rem;
+    border: none;
+    cursor: pointer;
+}
+.btn{
+        display: block;
+        margin: auto;
+        padding: 1rem 3rem;
+        border: none;
+        font-size: 2rem;
+        font-weight: 400;
+        color: #fff;
+        background-color: rgb(125, 125, 190);
+}
+.btn:hover{
+    background-color: blue;
+    cursor: pointer;
+}
+#showscore{
+    margin: 3rem ;
+    background-color: cadetblue;
+    box-shadow: 10px 10px 10px  grey;
+    padding: 2rem 4rem;
+}
+#showscore h3{
+    margin-left: 20rem;
+}
+.scorearea{
+    display: none;
+}
